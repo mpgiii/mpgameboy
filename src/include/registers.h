@@ -1,3 +1,6 @@
+#ifndef _REGISTERS_H
+#define _REGISTERS_H
+
 #include <stdint.h>
 
 /**
@@ -28,3 +31,5 @@ typedef struct registers {
     uint16_t sp; /* stack pointer */
     uint16_t pc; /* program counter/pointer */
 } Registers;
+
+#endif /* _REGISTERS_H */

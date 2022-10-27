@@ -510,4 +510,4 @@ void ei(void);
 void cp_n(unsigned char operand);
 void rst_38(void);
 
-#endif // _CPU_H
+#endif /* _CPU_H */
