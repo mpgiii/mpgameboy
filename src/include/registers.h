@@ -32,4 +32,6 @@ typedef struct registers {
     uint16_t pc; /* program counter/pointer */
 } Registers;
 
+extern Registers cpu; /* the single CPU register state */
+
 #endif /* _REGISTERS_H */

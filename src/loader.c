@@ -1,4 +1,5 @@
 #include "loader.h"
+#include <stdlib.h>
 
 uint8_t* read_rom(const char* path, uint32_t* size) {
 
