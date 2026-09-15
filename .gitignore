@@ -1,3 +1,4 @@
 .vscode/*
 **/.history
 mpgameboy.exe
+*.o
